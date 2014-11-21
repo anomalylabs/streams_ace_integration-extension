@@ -1,0 +1,17 @@
+{
+    "name": "anomaly/streams_ace_integration-extension",
+    "type": "streams-addon",
+    "description": "This extension provides ACE integration for Streams.",
+    "authors": [
+        {
+            "name": "AnomalyLabs",
+            "email": "hello@anomaly.is"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
