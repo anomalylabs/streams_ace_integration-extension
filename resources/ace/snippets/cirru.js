@@ -1,7 +1,7 @@
-define(function(require, exports, module) {
+ace.define("ace/snippets/cirru",["require","exports","module"], function(require, exports, module) {
 "use strict";
 
-exports.snippetText = require("../requirejs/text!./cirru.snippets");
+exports.snippetText =undefined;
 exports.scope = "cirru";
 
 });

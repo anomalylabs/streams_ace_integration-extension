@@ -1,7 +1,7 @@
-define(function(require, exports, module) {
+ace.define("ace/snippets/json",["require","exports","module"], function(require, exports, module) {
 "use strict";
 
-exports.snippetText = require("../requirejs/text!./json.snippets");
+exports.snippetText =undefined;
 exports.scope = "json";
 
 });
