@@ -20,7 +20,7 @@ class StreamsAceIntegrationExtensionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $target = app('streams.asset.path') . '/ace');
+        $target = app('streams.asset.path') . '/ace';
 
         if (config('app.debug') and !is_dir($target)) {
 
