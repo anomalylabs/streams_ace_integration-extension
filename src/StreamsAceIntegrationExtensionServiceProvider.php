@@ -1,4 +1,4 @@
-<?php namespace Anomaly\Streams\Addon\Extension\StreamsAceIntegration;
+<?php namespace Anomaly\StreamsAceIntegrationExtension;
 
 use Illuminate\Support\ServiceProvider;
 
