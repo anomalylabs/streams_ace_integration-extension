@@ -13,5 +13,11 @@ use Anomaly\Streams\Platform\Addon\Extension\Extension;
 class StreamsAceIntegrationExtension extends Extension
 {
 
+    /**
+     * Extension identification.
+     *
+     * @var string
+     */
+    protected $identifier = 'streams::integration.ace';
+
 }
- 
