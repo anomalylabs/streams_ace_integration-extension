@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'name'        => 'ACE Editor Integration',
-    'description' => 'An integration package that provides the ACE editor library.',
+    'name'        => 'Ace Code Editor Integration',
+    'description' => 'An integration package that provides the Ace code editor library.',
 ];
