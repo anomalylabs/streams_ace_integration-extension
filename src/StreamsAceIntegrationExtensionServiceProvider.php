@@ -20,11 +20,10 @@ class StreamsAceIntegrationExtensionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $target = app('streams.asset.path') . '/js/ace';
+        $target = app('streams.asset.path') . '/ace';
 
         if (config('app.debug') and !is_dir($target)) {
-
-            app('files')->copyDirectory(__DIR__ . '/../resources/ace', $target);
+            app('files')->copyDirectory(__DIR__ . '/../resources/js/ace', $target);
         }
     }
 }
