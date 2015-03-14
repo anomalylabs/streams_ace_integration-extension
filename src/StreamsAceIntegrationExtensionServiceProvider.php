@@ -1,6 +1,6 @@
 <?php namespace Anomaly\StreamsAceIntegrationExtension;
 
-use Illuminate\Support\ServiceProvider;
+use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
 
 /**
  * Class StreamsAceIntegrationExtensionServiceProvider
@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
  * @author        Ryan Thompson <ryan@anomaly.is>
  * @package       Anomaly\Streams\Addon\Extension\StreamsAceIntegration
  */
-class StreamsAceIntegrationExtensionServiceProvider extends ServiceProvider
+class StreamsAceIntegrationExtensionServiceProvider extends AddonServiceProvider
 {
 
     /**
